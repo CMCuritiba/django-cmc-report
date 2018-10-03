@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include cmcreport/static *
+recursive-include cmcreport/templates *
+recursive-include cmcreport/lib *
+recursive-include cmcreport/util *

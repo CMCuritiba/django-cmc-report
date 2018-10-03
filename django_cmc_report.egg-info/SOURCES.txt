@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+cmcreport/__init__.py
+cmcreport/apps.py
+django_cmc_report.egg-info/PKG-INFO
+django_cmc_report.egg-info/SOURCES.txt
+django_cmc_report.egg-info/dependency_links.txt
+django_cmc_report.egg-info/top_level.txt
