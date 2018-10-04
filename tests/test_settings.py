@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django_nose',
     'easy_pdf',
+    'cmcreport',
     'tests'
 ]
 TEMPLATES = [

@@ -21,3 +21,9 @@ class CMCReportViewTests(TestCase):
 
 	def test_class(self):
 		view = CMCReportView()
+
+
+	def test_report(self):
+		response = self.client.get('/test/')
+		content = response.content
+		self.assertEqual(content[:4], b'%PDF')
