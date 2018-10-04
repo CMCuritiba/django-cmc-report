@@ -20,7 +20,6 @@
     </style>
 {% endblock %}
 
-
 {% block extra_style %}
     <style type="text/css">
     	.header h1 {
@@ -38,7 +37,12 @@
             border-bottom: 0.1pt solid #999999;
         }
         tr, td, th { border: none; }
+
         .logo { margin-bottom: 20px;}
+
+        {% block my_style %}
+        {% endblock %} 
+
     </style>
 {% endblock %} 
 
@@ -47,7 +51,7 @@
         <div class="header">
         	<img src="{{''|brasao}}" height="40" style="margin-top:5px;margin-right:130px;"></img>
         	<h1>Câmara Municipal de Curitiba</h1>
-            <h2 align="center">{{ titulo }}</h2>
+            <h2 align="center">{% block report_title %}Relatório{% endblock %}</h2>
         </div>
     </div>
 {% endblock %}
